@@ -1,0 +1,20 @@
+id - BIGINT PRIMARY KEY AUTOINCREMENT
+marca - VARCHARD (20) NOT NULL
+modello - VARCHARD (20) NOT NULL
+tipo - VARCHARD (20) NULL
+colore - VARCHARD (20)
+cilindrata - DECIMAL (6.2) => XXXX,XX
+cavalli - VATCHARD (4) NULL
+carburante - VARCHARD (20) NOT NULL
+emissioni - VARCHARD (10)
+anno - YEAR NOT NULL 
+km - DECIMAL (14,4) XXXXXXXXXX,XXXX 
+cambio - VARCHARD (20) NULL
+numero porte - TINYINT NULL
+numero posti - TINYINT NOT NULL
+prezzo - INT NOT NULL
+revisione - TINYINT NOT NULL
+unico proprietario - TINYINT NOT NULL
+targa - VARCHARD (10) NOT NULL
+incidenti - TINYINT NOT NULL
+foto - TEXT NULL (url) BLOB
